@@ -35,7 +35,7 @@ def getNextURL(numURL):
 
 getNextURL('12345')
 while count < 400:
-    file = open('log.txt', 'a')
+    file = open('log.log', 'a')
     getNextURL(nextURL)
     file.write(decoded_body+'\n')
     file.close()
